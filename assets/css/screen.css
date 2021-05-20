@@ -1,0 +1,46 @@
+body {
+    margin: 20px;
+    /border: deeppink 2px solid;
+    /display: block;
+    background-color: black;
+}
+
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    border: white 5px dotted;
+    background: black;
+    height: 400px;
+
+}
+
+div {
+    width: 25%;
+    height: 25%;
+
+
+}
+
+
+
+/*
+
+USE AS A REFERENCE
+.basicDiv\'0\':hover {
+    background: aliceblue;
+}
+
+*/
+
+button {
+    border-radius: 50%;
+    width: 100px;
+    height: 70px;
+    background-color: black;
+    font-family: Arial;
+    color: white;
+
+
+
+}
