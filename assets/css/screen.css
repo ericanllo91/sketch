@@ -1,8 +1,11 @@
 body {
-    margin: 20px;
-    /border: deeppink 2px solid;
-    /display: block;
+    margin: 80px;
+/border: deeppink 2px solid;
+/display: block;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .mainDiv {
@@ -12,6 +15,7 @@ body {
     border: white 5px dotted;
     background: black;
     height: 400px;
+    margin: 0 200px;
 
 }
 
@@ -38,9 +42,19 @@ button {
     width: 100px;
     height: 70px;
     background-color: black;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     color: white;
-
-
-
+    margin: 25px;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.titleDiv {
+    width: 100%;
+}
+
